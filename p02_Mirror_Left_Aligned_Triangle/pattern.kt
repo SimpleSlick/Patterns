@@ -1,0 +1,7 @@
+fun main(){
+    var n: Int = readln().toInt()
+
+    for(i in 1..n){
+        println(" ".repeat(n - i) + "*".repeat(i))
+    }
+}
